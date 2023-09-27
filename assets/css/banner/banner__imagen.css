@@ -1,0 +1,11 @@
+.banner__imagen{
+    background: url(../../img/banner.png) no-repeat center / cover;
+    width: 100%;
+    height: calc(100vh - 75px);
+}
+
+@media screen and (max-width:768px) {
+    .banner__imagen{
+        height: calc(100vh - 51px);
+    }
+}

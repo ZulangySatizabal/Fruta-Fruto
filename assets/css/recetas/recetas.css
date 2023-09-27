@@ -1,0 +1,33 @@
+.recetas{
+    background: #dab997;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0 0 5rem;
+}
+
+.receta{
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    width: calc(32.5% - 2rem);
+}
+
+.receta__imagen{
+    height: 200px;
+}
+
+@media screen and (max-width:768px) {
+    .recetas{
+        padding: 5rem 0 0 2rem;
+    }
+    .receta{
+        margin-right: 2rem;
+        width: 100%;
+    }
+
+    .receta__imagen{
+        height: 100%;
+    }
+}

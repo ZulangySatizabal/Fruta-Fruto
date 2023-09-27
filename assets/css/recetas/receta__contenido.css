@@ -1,0 +1,30 @@
+.receta__titulo{
+    font-size: 1.4375rem;
+}
+
+.receta__descripcion{
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.receta__contenido{
+    padding: 3rem;
+
+}
+
+.receta__boton{
+    background: #da2b1f;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+}
+
+.receta__boton:hover{
+    cursor: pointer;
+    background: #9f1010;
+
+}
+
